@@ -1,0 +1,105 @@
+
+html {
+    height: 100%;
+}
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+background: rgb(206,220,231); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+   
+}
+
+
+#game1,#game2,#game3{
+  
+   float: left;
+    width: 400px;
+    height: 600px;
+    margin-left: 101px;
+}
+#button1,#button2,#button3{
+    width: 158px;
+    height: 48px;
+    background-color:rgba(255,255,255,0.3);
+    color: black;
+    border-radius: 10px;
+  
+ 
+    
+}
+#wrapp {
+    
+    
+    width: 280px;
+    height: 563px;
+    border: 3px solid black;
+    
+    
+}
+
+.btnDEL,.btnCE {
+    
+    width: 140px;
+    height: 48px;
+    border-color: black;
+    padding: 0px;
+    background-color:#2B2D2E;
+    color: #F0F0F0;
+    font-size:25px;
+}
+
+
+
+.btn  {
+    /*border-radius:70px;*/
+   
+    width: 70px;
+    height: 90px;
+    margin: 0px;
+    background-color:#2B2D2E;
+    color: #F0F0F0;
+    font-size:25px;
+    border-color: black;
+   
+}
+.btnEQ{
+    border-color: black;
+    width: 70px;
+    height: 90px;
+    margin: 0px;
+    background-color:#E6C405;
+    color: black;
+    font-size:25px;
+    
+}
+
+.btnDIV {
+   position: relative;
+    top: 153px;
+    
+}
+
+
+
+.screen {
+    position: absolute;
+    background-color: black;
+    position: absolute;
+    border-bottom: 3px solid black;
+    
+    width: 280px;
+    height: 150px;
+    color: #F0F0F0;
+    text-align: left;
+    font-size:1.3em;
+}
+
+.screen1 {
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    font-size: 2em;
+}
